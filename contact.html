@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+
+ <!-- boostrap 4 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ 
+   <!-- Fontawesome CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+     
+     <!-- swiper js  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+ 
+   <!-- My css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsive.css">
+  
+ 
+</head>
+<body>  
+
+<header>
+ 
+     <nav class="nav">
+
+      <!-- *********** Mobile Logo  *************** -->
+      <div class="logo-small-container">
+        <img src="img/logo.png" class="logo logo-small" alt="">
+      </div>
+
+
+
+      <!-- **********  Hamburger Container  *************  -->
+      <div class="nav-container">
+        <div class="hamburger">
+          <i class="fa fa-bars"></i>
+      </div>
+
+
+      <!-- ***********   Menu section  ************ -->
+      <div class="side-menu">
+        <ul class="nav-list">
+          <a href="index.html"><li class="nav-link">Home</li></a>
+          <a href="#"><li class="nav-link">HR</li></a>   
+          
+              <div class="dropdown d-inline-block">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Investment
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Grand Hotel,Mumbai</a>
+                  <a class="dropdown-item" href="#">Hotel Grand Panhala</a>
+                </div>
+              </div>
+              
+              <div class="dropdown d-inline-block">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Insurance
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Grand Hotel,Mumbai</a>
+                  <a class="dropdown-item" href="#">Hotel Grand Panhala</a>
+                </div>
+              </div>
+              
+              <a href="#"><li class="nav-link">
+                <img src="img/logo.png" class="logo" alt="">
+              </li></a>
+              
+              <div class="dropdown d-inline-block">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Real Estate
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Grand Hotel,Mumbai</a>
+                  <a class="dropdown-item" href="#">Hotel Grand Panhala</a>
+                </div>
+              </div>
+              
+              <a href="#"><li class="nav-link">About Us</li></a>
+              <a href="#"><li class="nav-link">Calculator</li></a>
+              <a href="#"><li class="nav-link active">Contact us</li></a>   
+            </ul>
+      </div>   
+      </div>
+       
+  </nav>  
+
+  <!--  ***** Navber end ***** -->
+
+    <div class="header-banner">
+         <h1>Contact us</h1>
+    </div>
+
+</header>
+<!-- *******  Header end  ******** -->
+
+
+
+<!-- ******************  Contact Content start  ********************** -->
+
+ 
+<div class="contact-container">
+    <div class="container">
+    <div class="section-flex">
+        <div class="section-left">
+
+            <h1 class="contact-title">Send us a Message</h1>
+            <form action="contact.php" method="POST">
+                    <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="Name">First Name</label>
+                        <input type="text" name="fname">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Name">Last Name</label>
+                        <input type="text" name="lname">
+                    </div>
+                    </div>
+
+                    <div class="form-group col-md-12">
+                        <label for="Name">Mobile no</label>
+                        <input type="text" name="mobile">
+                    </div>
+        
+                    <div class="form-group col-md-12">
+                        <label for="Name">Email</label>
+                        <input type="text" name="email">
+                    </div>
+                    
+                    <div class="form-group col-md-12">
+                        <label for="Name">Message</label>
+                        <textarea name="message" name="message" cols="30" rows="4"></textarea>
+                    </div>
+                
+                    <div class="form-button">
+                        <button type="submit" class="button">Submit</button>
+                    </div>
+                </form>
+        </div>
+
+        
+        <div class="section-right">
+              <div class="contact-block">
+                   <div class="contact-content-container">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <div class="contact-content">
+                            <h2>Address</h2>
+                            <p>Shop No. 5, Murarka Lane, Podar Road, Malad East, Mumbai - 400 097</p>
+                        </div>
+                   </div>
+                   
+                   <div class="contact-content-container">
+                       <i class="fas fa-phone"></i>
+                        <div class="contact-content">
+                            <h2>Phone No</h2>
+                            <p><a href="tel: +91 77384 09005">+91 77384 09005</a></p>
+                            <p><a href="tel: +91 98204 72951">+91 98204 72951</a></p>
+                        </div>
+                    </div>
+
+                    <div class="contact-content-container">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <div class="contact-content">
+                            <h2>E-Mail</h2>
+                            <p><a href="mailto: riddhi@moneysavers.co.in">riddhi@moneysavers.co.in</a></p>
+                            <p><a href="mailto:jimit@moneysavers.co.in">jimit@moneysavers.co.in</a></p>
+                        </div>
+                    </div>
+
+              </div>
+        </div>
+      </div> 
+    </div>
+</div>
+
+
+
+
+<div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d482332.09867809364!2d72.852113!3d19.185612!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b702aef4119f%3A0x2ec3844a58b407d8!2sBL%20Murarka%20Marg%20%26%20Subhash%20Ln%2C%20Malad%2C%20Malad%20East%2C%20Mumbai%2C%20Maharashtra%20400097%2C%20India!5e0!3m2!1sen!2sus!4v1623843576326!5m2!1sen!2sus" class="googlemap" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+
+
+
+
+<!--  ********************   Footer start   ********************  -->
+
+
+<footer class="footer">
+   <div class="container">
+  <div class="row">
+    <div class="col-md-3 col-sm-6 col-12">
+      <h4>About Us</h4>
+      <p>At Moneysavers.co.in, partnered by Riddhi Shah and Jimit Shah we are committed towards one singular motive of multiplying our client’s wealth and reaping the optimal benefits of the stock market.</p>
+      <p><a href="#">Read more</a></p>
+      <p><a href="#">Contact us</a></p>
+    </div>
+
+    <div class="col-md-3 col-sm-6 col-12">
+        <h4>Quick Links</h4>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Mutal Fund</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> SIP Investment</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Life Insurance</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Travel Insurance</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Motor Coverage Or Auto Insurance</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Calculator</a> </p>
+        <p> <a href=""><i class="fas fa-chevron-right"></i> Human Resources</a> </p>
+    </div>  
+
+    <div class="col-md-3 col-sm-6 col-12">
+      <h4>Contact Us</h4>
+
+      <h3>Jimit Shah (Director)</h3>
+      <p><a href="tel:98204 72951"><i class="fas fa-phone-alt"></i> +91 98204 72951</a> </p>
+      <p><a href="mailto: jimit@moneysavers.co.in"><i class="far fa-envelope"></i> jimit@moneysavers.co.in</a> </p>
+
+      <h3>Riddhi Shah (Director)</h3>
+      <p><a href="tel:77384 09005"><i class="fas fa-phone-alt"></i>  +91 77384 09005
+      </a> </p>
+      <p><a href="mailto: riddhi@moneysavers.co.in"><i class="far fa-envelope"></i> riddhi@moneysavers.co.in</a> </p>
+      <p><a href="#"><i class="fas fa-map-marker-alt"></i> Shop No 5, Murarka Lane, Podar Road, Malad East, Mumbai - 400 097</a> </p>
+    </div>  
+
+    <div class="col-md-3 col-sm-6 col-12">
+        <h4>Quick Enquiry</h4>
+        <form action="contact.php" class="footer-form">
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email Id">
+            <input type="text" placeholder="Subject">
+            <input type="submit" value="submit" class="form-submit">
+        </form>
+    </div>
+
+    </div><br>
+  </div>  
+  <!-- ***  Container End  *** -->
+
+    <div class="row footer-bottom">
+      <div class="container">
+          <p> © 2021 Money Savers - All Rights Reserved. Designed by RABS Net Solutions</p>
+
+          <div>
+              <a href="#">Commercial</a>
+              <a href="#">Residential</a>
+              <a href="#">Ready to Move-In</a>
+              <a href="#">Underconstruction</a>
+          </div>
+
+          <div class="footer-social">
+            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+            <a href="#"> <i class="fab fa-twitter"></i> </a>
+            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+            <a href="#"> <i class="fab fa-instagram"></i> </a>
+          </div>
+      </div>  
+    </div> <!-- ***  Footer bottom  **** -->
+</footer>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="main.js"></script>
+
+</body>
+</html>
